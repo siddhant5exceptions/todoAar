@@ -7,9 +7,7 @@ import kotlinx.coroutines.CoroutineScope
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.launch
 import java.util.*
-@Keep
 class ApiHandler {
-    @Keep
     fun createSession() : String? {
         var response : String? = ""
         CoroutineScope(Dispatchers.IO + ErrorHandle().coroutineException()).launch {

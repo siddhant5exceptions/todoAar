@@ -1,0 +1,98 @@
+# compiler: R8
+# compiler_version: 3.2.74
+# common_typos_disable
+# {"id":"com.android.tools.r8.mapping","version":"2.0"}
+# pg_map_id: c88fef1
+# pg_map_hash: SHA-256 c88fef16d3e9d4a3c2f106ea9ba97675042981e121f388776a0dab78ead74ce4
+com.example.aarsample.ApiHandler -> com.example.aarsample.ApiHandler:
+# {"id":"sourceFile","fileName":"ApiHandler.kt"}
+    1:1:void <init>():10:10 -> <init>
+    1:19:java.lang.String createSession():12:30 -> createSession
+com.example.aarsample.ApiHandler$createSession$1 -> com.example.aarsample.ApiHandler$createSession$1:
+# {"id":"sourceFile","fileName":"ApiHandler.kt"}
+    kotlin.jvm.internal.Ref$ObjectRef $response -> a
+    1:1:java.lang.Object invoke(kotlinx.coroutines.CoroutineScope,kotlin.coroutines.Continuation):0:0 -> invoke
+    1:1:java.lang.Object invoke(java.lang.Object,java.lang.Object):0 -> invoke
+    1:17:java.lang.Object invokeSuspend(java.lang.Object):13:29 -> invokeSuspend
+com.example.aarsample.ApiHandler$createSession$1$WhenMappings -> com.example.aarsample.ApiHandler$createSession$1$WhenMappings:
+# {"id":"sourceFile","fileName":"ApiHandler.kt"}
+com.example.aarsample.BuildConfig -> com.example.aarsample.BuildConfig:
+    1:1:void <init>():6:6 -> <init>
+com.example.aarsample.ErrorHandle -> com.example.aarsample.ErrorHandle:
+# {"id":"sourceFile","fileName":"ErrorHandle.kt"}
+    1:1:void <init>():6:6 -> <init>
+    1:1:kotlinx.coroutines.CoroutineExceptionHandler coroutineException():48:48 -> coroutineException
+    1:12:void handled(java.lang.String,java.lang.String,int):17:28 -> handled
+com.example.aarsample.ErrorHandle$coroutineException$$inlined$CoroutineExceptionHandler$1 -> com.example.aarsample.ErrorHandle$coroutineException$$inlined$CoroutineExceptionHandler$1:
+# {"id":"sourceFile","fileName":"CoroutineExceptionHandler.kt"}
+    1:1:void <init>(kotlinx.coroutines.CoroutineExceptionHandler$Key):49:49 -> <init>
+    1:2:void handleException(kotlin.coroutines.CoroutineContext,java.lang.Throwable):111:112 -> handleException
+com.example.aarsample.ErrorType -> com.example.aarsample.ErrorType:
+# {"id":"sourceFile","fileName":"ErrorType.kt"}
+    java.lang.String stringValue -> a
+    com.example.aarsample.ErrorType[] $VALUES -> c
+    int intValue -> b
+    1:5:void <clinit>():7:11 -> <clinit>
+    6:6:com.example.aarsample.ErrorType[] $values():0:0 -> <clinit>
+    6:6:void <clinit>():11 -> <clinit>
+    7:7:void <clinit>():11:11 -> <clinit>
+    1:1:void <init>(java.lang.String,int,java.lang.String,int):6:6 -> <init>
+    1:1:int getIntValue():6:6 -> getIntValue
+    1:1:java.lang.String getStringValue():6:6 -> getStringValue
+    1:1:java.lang.String toString():14:14 -> toString
+com.example.aarsample.LogUtil -> com.example.aarsample.LogUtil:
+# {"id":"sourceFile","fileName":"LogUtil.kt"}
+    boolean isEnableLogs -> a
+    1:1:void <clinit>():9:9 -> <clinit>
+    1:1:void <init>():6:6 -> <init>
+    1:1:boolean access$isEnableLogs$cp():6:6 -> access$isEnableLogs$cp
+com.example.aarsample.LogUtil$Companion -> com.example.aarsample.LogUtil$Companion:
+# {"id":"sourceFile","fileName":"LogUtil.kt"}
+    1:1:void <init>():8:8 -> <init>
+    1:2:void printLog(java.lang.String,java.lang.Object):12:13 -> printLog
+    3:4:void printLog(java.lang.String,java.lang.String):18:19 -> printLog
+    5:6:void printLog(java.lang.String,java.lang.String,java.lang.Throwable):24:25 -> printLog
+com.example.aarsample.NetworkClient -> com.example.aarsample.NetworkClient:
+# {"id":"sourceFile","fileName":"NetworkClient.kt"}
+    java.lang.String contentType -> a
+    java.lang.String accept -> c
+    java.lang.String mHostName -> b
+    1:4:void <init>():13:16 -> <init>
+    1:1:com.example.aarsample.Resource getMethodCall(java.lang.String):27:27 -> getMethodCall
+    2:6:void getHostName(java.lang.String):98:102 -> getMethodCall
+    2:6:com.example.aarsample.Resource getMethodCall(java.lang.String):27 -> getMethodCall
+    7:91:com.example.aarsample.Resource getMethodCall(java.lang.String):29:113 -> getMethodCall
+    92:184:com.example.aarsample.Resource getMethodCall(java.lang.String):36:128 -> getMethodCall
+    185:185:com.example.aarsample.Resource getMethodCall(java.lang.String):106:106 -> getMethodCall
+    186:190:com.example.aarsample.Resource getMethodCall(java.lang.String):37:41 -> getMethodCall
+    1:11:com.example.aarsample.Resource postMethodCall(java.lang.String,org.json.JSONObject):47:57 -> postMethodCall
+    12:17:okhttp3.Request setHeader(okhttp3.Request,okhttp3.RequestBody):80:85 -> postMethodCall
+    12:17:com.example.aarsample.Resource postMethodCall(java.lang.String,org.json.JSONObject):58 -> postMethodCall
+    18:96:com.example.aarsample.Resource postMethodCall(java.lang.String,org.json.JSONObject):59:137 -> postMethodCall
+    97:189:com.example.aarsample.Resource postMethodCall(java.lang.String,org.json.JSONObject):60:152 -> postMethodCall
+    190:190:com.example.aarsample.Resource postMethodCall(java.lang.String,org.json.JSONObject):130:130 -> postMethodCall
+    191:197:com.example.aarsample.Resource postMethodCall(java.lang.String,org.json.JSONObject):61:67 -> postMethodCall
+com.example.aarsample.Resource -> com.example.aarsample.Resource:
+# {"id":"sourceFile","fileName":"Resource.kt"}
+    java.lang.Integer code -> d
+    com.example.aarsample.Status status -> a
+    java.lang.String message -> c
+    java.lang.String data -> b
+    1:5:void <init>(com.example.aarsample.Status,java.lang.String,java.lang.String,java.lang.Integer):3:7 -> <init>
+    1:1:java.lang.Integer getCode():7:7 -> getCode
+    1:1:java.lang.String getData():5:5 -> getData
+    1:1:java.lang.String getMessage():6:6 -> getMessage
+    1:1:com.example.aarsample.Status getStatus():4:4 -> getStatus
+com.example.aarsample.Resource$Companion -> com.example.aarsample.Resource$Companion:
+# {"id":"sourceFile","fileName":"Resource.kt"}
+    1:1:void <init>():9:9 -> <init>
+    1:1:com.example.aarsample.Resource error(java.lang.String,java.lang.String,int):16:16 -> error
+    1:1:com.example.aarsample.Resource success(java.lang.String):12:12 -> success
+com.example.aarsample.Status -> com.example.aarsample.Status:
+# {"id":"sourceFile","fileName":"Status.kt"}
+    com.example.aarsample.Status[] $VALUES -> a
+    1:2:void <clinit>():7:8 -> <clinit>
+    3:3:com.example.aarsample.Status[] $values():0:0 -> <clinit>
+    3:3:void <clinit>():8 -> <clinit>
+    4:4:void <clinit>():8:8 -> <clinit>
+    1:1:void <init>(java.lang.String,int):6:6 -> <init>
