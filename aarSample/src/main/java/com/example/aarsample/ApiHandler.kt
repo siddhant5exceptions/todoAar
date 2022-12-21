@@ -7,6 +7,7 @@ import kotlinx.coroutines.CoroutineScope
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.launch
 import java.util.*
+@Keep
 class ApiHandler {
     fun createSession() : String? {
         var response : String? = ""
