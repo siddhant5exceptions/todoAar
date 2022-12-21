@@ -12,7 +12,7 @@
 #   public *;
 #}
 
--keep public class com.example.aarsample.ApiHandler
+#-keep public class com.example.aarsample.ApiHandler
 
 # Uncomment this to preserve the line number information for
 # debugging stack traces.
