@@ -49,7 +49,7 @@ afterEvaluate {
                 from components.release
                 groupId = 'com.todoAar'
                 artifactId = 'aarSample'
-                version = '1.0.16'
+                version = '1.0.18'
             }
         }
     }
