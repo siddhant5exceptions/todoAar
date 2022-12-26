@@ -18,7 +18,8 @@
 # debugging stack traces.
 #-keepattributes SourceFile,LineNumberTable
 
--keep public class com.example.aarsample.* { public *;}
+#-keep public class com.example.aarsample.ApiHandler { public *;}
+-keep public class com.example.aarsample.** { public *;}
 
 
 # If you keep the line number information, uncomment this to
