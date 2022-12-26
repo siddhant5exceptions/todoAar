@@ -19,6 +19,7 @@
 #-keepattributes SourceFile,LineNumberTable
 
 -keep public class com.example.aarsample.ApiHandler { public *;}
+-keep public class com.example.aarsample.Status { public *;}
 
 
 # If you keep the line number information, uncomment this to
