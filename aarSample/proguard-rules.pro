@@ -20,6 +20,8 @@
 
 #-keep public class com.example.aarsample.ApiHandler { public *;}
 -keep public class com.example.aarsample.** { public *;}
+-keep @androidx.annotation.Keep class * {*;}
+-keepattributes *Annotation*,Signature,InnerClasses,EnclosingMethod
 
 -keepclasseswithmembers class * {
     @androidx.annotation.Keep <fields>;
