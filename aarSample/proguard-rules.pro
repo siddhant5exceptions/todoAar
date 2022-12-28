@@ -19,8 +19,8 @@
 #-keepattributes SourceFile,LineNumberTable
 
 #-keep public class com.example.aarsample.ApiHandler { public *;}
--keep public class com.example.aarsample.ApiHandler{public *;}
--keep public class com.example.aarsample.Status{public *;}
+#-keep public class com.example.aarsample.ApiHandler{public *;}
+#-keep public class com.example.aarsample.Status{public *;}
 
 
 
