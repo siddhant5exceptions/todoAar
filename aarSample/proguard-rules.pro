@@ -19,7 +19,7 @@
 #-keepattributes SourceFile,LineNumberTable
 
 #-keep public class com.example.aarsample.ApiHandler { public *;}
-#-keep public class com.example.aarsample.** { public *;}
+-keep public class com.example.aarsample.** { public *;}
 
 -keepclasseswithmembers class * {
     @androidx.annotation.Keep <fields>;
