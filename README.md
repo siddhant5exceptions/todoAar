@@ -1,2 +1,24 @@
 # todoAar
 [![](https://jitpack.io/v/siddhant5exceptions/todoAar.svg)](https://jitpack.io/#siddhant5exceptions/todoAar)
+
+
+
+To get a Git project into your build:
+
+Step 1. Add the JitPack repository to your build file
+
+Gradle
+
+Add it in your root build.gradle at the end of repositories:
+
+	allprojects {
+		repositories {
+			...
+			maven { url 'https://jitpack.io' }
+		}
+	}
+Step 2. Add the dependency
+
+	dependencies {
+	        implementation 'com.github.siddhant5exceptions:todoAar:1.1'
+	}
